@@ -359,13 +359,13 @@ ul#toc > li > ul > li {
 	overflow: hidden; -ms-text-overflow: ellipsis;
 }
 #tocContainer:focus {
-	outline: 0px;
+	outline: 2px;
 }
 #contents:focus {
-	outline: 0px;
+	outline: 2px;
 }
 iframe:focus {
-	outline: 0px;
+	outline: 2px;
 }
 article > a[name]::before {
 	margin: -85px 0px 0px; height: 85px; display: block; content: "";
@@ -443,7 +443,7 @@ section > a[name]::before {
 	display: none;
 }
 .Xcode #tocContainer {
-	display: none;
+	display: inline;
 }
 .Xcode footer {
 	display: none;
@@ -2098,7 +2098,7 @@ a[name]::before {
 	display: none;
 }
 .isShowingTOC#tocContainer {
-	width: 0px; display: none;
+	width: 0px; display: inline;
 }
 .isShowingTOC#contents {
 	left: 0px; min-width: 0px;
