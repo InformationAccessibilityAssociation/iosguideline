@@ -19,7 +19,7 @@
 ####[制作有用的标签和提示](http://informationaccessibilityassociation.github.io/iosguideline/Making_Your_iOS_App_Accessible.htm#//apple_ref/doc/uid/TP40008785-CH102-SW6) 
 #####[创建标签指南](http://informationaccessibilityassociation.github.io/iosguideline/Making_Your_iOS_App_Accessible.htm#//apple_ref/doc/uid/TP40008785-CH102-SW20)
 #####[创建提示指南](http://informationaccessibilityassociation.github.io/iosguideline/Making_Your_iOS_App_Accessible.htm#//apple_ref/doc/uid/TP40008785-CH102-SW11)
-http://informationaccessibilityassociation.github.io/iosguideline/
+
 ####[定义恰当的特质](http://informationaccessibilityassociation.github.io/iosguideline/Making_Your_iOS_App_Accessible.htm#//apple_ref/doc/uid/TP40008785-CH102-SW7)
 ####[在Interface Builder中自定义属性信息](http://informationaccessibilityassociation.github.io/iosguideline/Making_Your_iOS_App_Accessible.htm#//apple_ref/doc/uid/TP40008785-CH102-SW1)
 ####[编程化处理自定义属性信息](http://informationaccessibilityassociation.github.io/iosguideline/Making_Your_iOS_App_Accessible.htm#//apple_ref/doc/uid/TP40008785-CH102-SW2)
