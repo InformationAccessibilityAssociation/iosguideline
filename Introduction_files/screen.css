@@ -2062,16 +2062,16 @@ div.diffReport {
 @media only print
 {
 .hideOnPrint {
-	display: none !important;
+	display: inline !important;
 }
 #toc {
-	display: none !important;
+	display: inline !important;
 }
 #tooltip {
-	display: none !important;
+	display: inline !important;
 }
 #pediaWindow {
-	display: none !important;
+	display: inline !important;
 }
 body {
 	overflow: visible !important;
@@ -2104,10 +2104,10 @@ a[name]::before {
 	left: 0px; min-width: 0px;
 }
 #header {
-	display: none;
+	display: inline;
 }
 #tocContainer {
-	display: none;
+	display: inline;
 }
 .noADC#contents {
 	left: 0px; top: 0px;
