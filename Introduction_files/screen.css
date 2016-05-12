@@ -2098,7 +2098,7 @@ a[name]::before {
 	display: none;
 }
 .isShowingTOC#tocContainer {
-	width: 0px; display: inline;
+	width: 100px; display: inline;
 }
 .isShowingTOC#contents {
 	left: 0px; min-width: 0px;
@@ -2257,7 +2257,7 @@ code.code-voice {
 	height: auto !important; min-height: 35px !important; max-height: 50px !important;
 }
 .isShowingTOC#contents {
-	margin-left: 0px; display: none;
+	margin-left: 0px; display: inline;
 }
 body.isShowingTOC {
 	background-color: rgba(235, 238, 241, 1);
