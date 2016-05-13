@@ -263,10 +263,10 @@ header h1 {
 	width: 9px; height: 8px; margin-right: 6px; display: inline-block; position: relative;
 }
 .disclosure {
-	background: url("book_ui_sprites_2x.png") no-repeat -62px 0px / 110px; margin-right: 5px;
+	background: url("../book_ui_sprites_2x.png") no-repeat -62px 0px / 110px; margin-right: 5px;
 }
 .open > .disclosure {
-	background: url("book_ui_sprites_2x.png") no-repeat -62px -9px / 110px;
+	background: url("../book_ui_sprites_2x.png") no-repeat -62px -9px / 110px;
 }
 li#jumpto_button {
 	left: 230px; top: -2px; margin-left: 0px; position: absolute;
@@ -422,7 +422,7 @@ section > a[name]::before {
 	left: 50%; top: 5%; width: 815px; height: 90%;
 }
 #QuickLookCloseBox {
-	background: url("book_ui_sprites_2x.png") 0px -20px / 110px; left: 50%; top: 5%; width: 30px; height: 30px; margin-top: -13px; margin-left: -385px; position: fixed; z-index: 0; opacity: 0; -webkit-transition-property: opacity, z-index; -webkit-transition-duration: .5s;
+	background: url("../book_ui_sprites_2x.png") 0px -20px / 110px; left: 50%; top: 5%; width: 30px; height: 30px; margin-top: -13px; margin-left: -385px; position: fixed; z-index: 0; opacity: 0; -webkit-transition-property: opacity, z-index; -webkit-transition-duration: .5s;
 }
 .visible#QuickLookCloseBox {
 	z-index: 9150; opacity: 1;
@@ -1055,10 +1055,10 @@ p.tableholder {
 	background-color: transparent;
 }
 .warningbox {
-	background: url("book_ui_sprites_2x.png") no-repeat -80px -20px / 110px rgb(255, 255, 255); margin: 1.66em 0px; padding: 0px 0.66em 0.08em 0.75em; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: left;
+	background: url("../book_ui_sprites_2x.png") no-repeat -80px -20px / 110px rgb(255, 255, 255); margin: 1.66em 0px; padding: 0px 0.66em 0.08em 0.75em; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: left;
 }
 .warningboxdef {
-	background: url("book_ui_sprites_2x.png") no-repeat -80px -20px / 110px rgb(255, 255, 255); margin: 1.66em 0px; padding: 0px 0.66em 0.08em 0.75em; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: left;
+	background: url("../book_ui_sprites_2x.png") no-repeat -80px -20px / 110px rgb(255, 255, 255); margin: 1.66em 0px; padding: 0px 0.66em 0.08em 0.75em; border: 1px solid rgb(0, 0, 0); border-image: none; text-align: left;
 }
 .warningbox p {
 	font: 100%/normal "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; margin-top: 0.58em; margin-bottom: 0px; margin-left: 2.5em; font-size-adjust: none; font-stretch: normal;
@@ -1535,7 +1535,7 @@ span.activePedia-bottom a:hover {
 	-ms-word-wrap: break-word;
 }
 .closebutton {
-	background: url("book_ui_sprites_2x.png") 0px -20px / 110px; top: 0.58em; width: 30px; height: 30px; right: 0.58em; bottom: 0.66em; position: absolute;
+	background: url("../book_ui_sprites_2x.png") 0px -20px / 110px; top: 0.58em; width: 30px; height: 30px; right: 0.58em; bottom: 0.66em; position: absolute;
 }
 #technical > div:first-of-type {
 	position: relative !important;
