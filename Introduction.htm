@@ -73,24 +73,27 @@ Developer Library</A><a href="http://www.siaa.org.cn/" id="ssi_LibraryTitle" tar
 </DIV>
 	 
 	 
-	<header id="header">
-        <div id="title" role="banner">
-            <h1>iOS无障碍编程指南</h1>
-            <span id="file_links">
-                <a class="" id="PDF_link" role="button" tabindex="4" rel="alternate" title="Download PDF"><span id="pdf_icon"></span>PDF</a>
-                <a class="" id="Companion_link" role="button" tabindex="3" title="Download Companion File"><span id="companion_icon"></span>Companion File</a>
-            </span>
-        </div>
-        <ul id="headerButtons" class="hideOnPrint" role="toolbar">
-            <li id="toc_button" style="">
-                <button tabindex="5" id="table_of_contents" class="" role="checkbox" aria-label="内容列表"><span class="disclosure"></span>内容列表</button>
-            </li>
-            <li id="jumpto_button" style="display:none" role="navigation"><select tabindex="6" id="jumpTo"><option selected="selected" value="top">Jump To…</option></select></li>
-            <li id="downloadSample_button" style="display:none">
-                <a id="Sample_link"><button id="Sample_button">下载简单样例</button></a>
-            </li>
-        </ul>
-	</header>
+<header id="header">
+	<div id="title" role="banner">
+		<h1>iOS无障碍编程指南</h1>
+		<span id="file_links">
+			<a class="" id="PDF_link" role="button" tabindex="4" rel="alternate" title="Download PDF"><span id="pdf_icon"></span>PDF</a>
+			<a class="" id="Companion_link" role="button" tabindex="3" title="Download Companion File"><span id="companion_icon"></span>Companion File</a>
+		</span>
+	</div>
+	<ul  class="hideOnPrint" id="headerButtons" role="toolbar">
+		<li id="toc_button" style="display:inline">
+			<button tabindex="5" id="table_of_contents" class="" role="checkbox" aria-label="内容列表">
+			<span class="disclosure"></span>
+			内容列表
+			</button>
+		</li>
+		<li id="jumpto_button" style="display:none" role="navigation"><select tabindex="6" id="jumpTo"><option selected="selected" value="top">Jump To…</option></select></li>
+		<li id="downloadSample_button" style="display:none">
+			<a id="Sample_link"><button id="Sample_button">下载简单样例</button></a>
+		</li>
+	</ul>
+</header>
 
     <nav class="isShowingTOC" id="tocContainer" tabindex="7" overflow="scroll">
 		<ul id="toc" rule="tree">
@@ -175,7 +178,7 @@ Rights Reserved.<a onclick='s_objectID="http://www.apple.com/legal/internet-serv
         </div>
     </article> 
 	
-<SCRIPT charset="utf-8" src="introduction/prototype.js"></SCRIPT>
+<SCRIPT src="introduction/prototype.js" charset="utf-8"></SCRIPT>
 <SCRIPT src="introduction/library.js" ></SCRIPT>
 <SCRIPT src="introduction/feedback.js" ></SCRIPT>
 </BODY>
