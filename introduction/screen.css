@@ -326,7 +326,7 @@ ul#toc > li > ul > li {
 	margin: 0px; padding: 0px;
 }
 #tocContainer > ul#toc > li.open.children ul ul {
-	margin: 0px; padding: 2px 0px 2px 9px;
+	margin: 0px; padding: 2px 0px 2px 2px;
 }
 #tocContainer .related ul {
 	margin: 0.5em 0px 0px 2.5em; padding: 0px 0px 1em 0.5em;
