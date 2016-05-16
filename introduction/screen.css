@@ -275,7 +275,7 @@ li#page_buttons {
 	right: 0px; position: absolute;
 }
 #tocContainer {
-	background: rgba(235, 238, 241, 1); left: 0px; top: 85px; width: 229px; bottom: 0px; overflow: hidden; border-top-color: currentColor; border-top-width: 0px; border-top-style: none; display: none; position: fixed; -webkit-user-select: none; -moz-user-select: none;
+	background: rgba(235, 238, 241, 1); left: 0px; top: 85px; width: 229px; bottom: 0px; overflow: hidden; border-top-color: currentColor; border-top-width: 0px; border-top-style: none; display: inline; position: fixed; -webkit-user-select: none; -moz-user-select: none;
 }
 .isShowingTOC#tocContainer {
 	padding: 0px; border-right-color: rgba(172, 172, 172, 1); border-right-width: 1px; border-right-style: solid; display: block; z-index: 4; -ms-overflow-x: hidden; -ms-overflow-y: auto;
@@ -299,7 +299,7 @@ li#page_buttons {
 	padding: 0px 0px 7px 30px; text-indent: -15px; margin-top: 0px;
 }
 #tocContainer > ul#toc li.children > ul {
-	height: 0px; display: none;
+	height: 0px; display: inline;
 }
 #tocContainer > ul#toc li.open.children > ul {
 	height: auto; margin-left: -2px; display: block;
@@ -443,7 +443,7 @@ section > a[name]::before {
 	display: none;
 }
 .Xcode #tocContainer {
-	display: none;
+	display: inline;
 }
 .Xcode footer {
 	display: none;
@@ -2062,10 +2062,10 @@ div.diffReport {
 @media only print
 {
 .hideOnPrint {
-	display: none !important;
+	display: inline !important;
 }
 #toc {
-	display: none !important;
+	display:inline !important;
 }
 #tooltip {
 	display: none !important;
@@ -2257,7 +2257,7 @@ code.code-voice {
 	height: auto !important; min-height: 35px !important; max-height: 50px !important;
 }
 .isShowingTOC#contents {
-	margin-left: 0px; display: none;
+	margin-left: 0px; display: inline;
 }
 body.isShowingTOC {
 	background-color: rgba(235, 238, 241, 1);
