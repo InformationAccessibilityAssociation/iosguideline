@@ -278,7 +278,7 @@ li#page_buttons {
 	background: rgba(235, 238, 241, 1); left: 0px; top: 85px; width: 229px; bottom: 0px; overflow: hidden; border-top-color: currentColor; border-top-width: 0px; border-top-style: none; display: inline; position: fixed; -webkit-user-select: none; -moz-user-select: none;
 }
 .isShowingTOC#tocContainer {
-	padding: 0px; border-right-color: rgba(172, 172, 172, 1); border-right-width: 1px; border-right-style: solid; display: block; z-index: 4; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+	padding: 0px; border-right-color: rgba(172, 172, 172, 1); border-right-width: 1px; border-right-style: solid; display: block; z-index: 4; -ms-overflow-x: hidden; -ms-overflow-y: scorll;
 }
 .noADC#tocContainer {
 	top: 51px;
@@ -290,7 +290,7 @@ li#page_buttons {
 	white-space: normal;
 }
 #tocContainer > ul#toc {
-	margin: 0px; padding: 12px 0px 18px; width: 209px; font-size: 11px; -webkit-user-select: none; -moz-user-select: none;
+	margin: 0px; padding: 12px 0px 18px; width: 209px; font-size: 10px; -webkit-user-select: none; -moz-user-select: none;
 }
 #tocContainer > ul#toc .currentLocation {
 	text-decoration: underline;
