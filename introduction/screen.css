@@ -68,7 +68,7 @@ body {
 	font: 13px/normal "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; margin-top: 0px; margin-left: 0px; min-width: 550px; font-size-adjust: none; font-stretch: normal;
 }
 #contents {
-	font: 13px/normal "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; margin-top: 0px; margin-left: 0px; min-width: 550px; font-size-adjust: none; font-stretch: normal;
+	font: 13px/normal "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; margin-top: 0px; margin-left: 230px; min-width: 550px; font-size-adjust: none; font-stretch: normal;
 }
 #adcHeader {
 	font: 13px/normal "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; margin-top: 0px; margin-left: 0px; min-width: 550px; font-size-adjust: none; font-stretch: normal;
@@ -644,7 +644,7 @@ body {
 	margin: 0px;
 }
 article:focus {
-	outline: 0px;
+	outline: 3px;
 }
 pre {
 	margin-top: 0.45em; margin-bottom: 0.9em;
