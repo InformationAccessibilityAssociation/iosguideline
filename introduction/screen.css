@@ -290,7 +290,7 @@ li#page_buttons {
 	white-space: normal;
 }
 #tocContainer > ul#toc {
-	margin: 0px; padding: 12px 0px 18px; width: 209px; font-size: 10px; -webkit-user-select: none; -moz-user-select: none;
+	margin: 0px; padding: 12px 12px 0px 12px; width: 209px; font-size: 10px; -webkit-user-select: none; -moz-user-select: none;
 }
 #tocContainer > ul#toc .currentLocation {
 	text-decoration: underline;
