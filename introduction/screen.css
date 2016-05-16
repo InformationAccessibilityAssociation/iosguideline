@@ -2062,16 +2062,16 @@ div.diffReport {
 @media only print
 {
 .hideOnPrint {
-	display: inline !important;
+	display:inline;
 }
 #toc {
-	display:inline !important;
+	display:inline;
 }
 #tooltip {
-	display: none !important;
+	display: none;
 }
 #pediaWindow {
-	display: none !important;
+	display: none;
 }
 body {
 	overflow: visible !important;
@@ -2098,16 +2098,16 @@ a[name]::before {
 	display: none;
 }
 .isShowingTOC#tocContainer {
-	width: 0px; display: none;
+	width: 0px; display: inline;
 }
 .isShowingTOC#contents {
 	left: 0px; min-width: 0px;
 }
 #header {
-	display: none;
+	display: inline;
 }
 #tocContainer {
-	display: none;
+	display: inline;
 }
 .noADC#contents {
 	left: 0px; top: 0px;
