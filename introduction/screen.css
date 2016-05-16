@@ -2270,6 +2270,7 @@ body.isShowingTOC {
 }
 #headerButtons {
 	height: 36px;
+	width:230px;
 }
 #pageNavigationLinks_top {
 	display: none;
