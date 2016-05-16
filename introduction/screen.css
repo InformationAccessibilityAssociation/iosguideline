@@ -392,7 +392,7 @@ section > a[name]::before {
 	padding: 0px 2em; left: 0px; top: 85px; right: 0px; bottom: 0px; position: absolute; z-index: 1; background-color: rgba(255, 255, 255, 1); -webkit-overflow-scrolling: touch;
 }
 .isShowingTOC#contents {
-	left: 0px; min-width: 320px;
+	left: 240px; min-width: 320px;
 }
 #contents .centeredContent {
 	width: 680px; margin-right: auto; margin-left: auto;
